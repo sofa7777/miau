@@ -1,0 +1,57 @@
+body {
+    background-color: #2b043e; /* Fondo morado oscuro tipo Opera GX */
+    color: #fff; /* Texto blanco */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente cute */
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #d49deb; /* Tono morado pastel */
+    font-size: 36px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px #d49deb;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #b469f6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: #a34bff;
+}
+
+#loveMessage {
+    font-size: 28px;
+    color: #fface4;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+#catImage {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px #fface4;
+}
